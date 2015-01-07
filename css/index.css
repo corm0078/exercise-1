@@ -16,3 +16,74 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "source sans pro", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.intro{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/main.jpg");
+    background-color:  transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.plane{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/plane.jpg");
+    background-color:  transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.sea{
+    height: 100vh;
+    width: 100%;
+    background-color: #9a837d;
+    color: #ccada5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.globe{
+    height: 100vh;
+    width: 100%;
+    background-color: #82a4ab;
+    color: #b6e4ed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a:link{
+ text-decoration: none;
+ color: #fff;
+ font-size: 9rem;    
+    
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
