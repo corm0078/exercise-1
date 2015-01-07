@@ -55,8 +55,8 @@ body{
 .sea{
     height: 100vh;
     width: 100%;
-    background-color: #9a837d;
-    color: #ccada5;
+    background-color: #8d0a28;
+    color: #fff;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,8 +66,8 @@ body{
 .globe{
     height: 100vh;
     width: 100%;
-    background-color: #82a4ab;
-    color: #b6e4ed;
+    background-color: #0b93c6;
+    color: #fff;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,9 +76,15 @@ body{
 
 a:link{
  text-decoration: none;
- color: #fff;
- font-size: 9rem;    
-    
+ color: #fff;     
+}
+
+a:link i{
+ font-size: 15rem;   
+}
+
+.sea a:link {
+ color: #fff;   
 }
 
 .hide-text {
