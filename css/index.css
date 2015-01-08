@@ -74,7 +74,9 @@ body{
 }
 
 
-a:link{
+a:link,
+a:hover,
+a:active{
  text-decoration: none;
  color: #fff;     
 }
@@ -92,4 +94,9 @@ a:link i{
 	white-space: nowrap;
 	overflow: hidden;
 	display: block;
+}
+
+h1,h2{
+ max-width: 1000px;
+ padding-left: 30%;
 }
