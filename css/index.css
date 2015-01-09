@@ -17,17 +17,20 @@ html {
 	box-sizing: inherit;
 }
 
+.center-v{
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
 body{
     margin: 0;
     padding: 0;
     font-family: "source sans pro", sans-serif;
-    font-size: 2rem;
     text-align: center;
-    color: white;
 }
-
-
-
 
 .intro{
     height: 100vh;
@@ -37,7 +40,17 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+
+.intro i,h1{
+  text-align: center;
+  padding: 1rem; 
+  color: #fff;    
+}
+
+.intro i{
+ padding: 0;
+ color: #fff;
 }
 
 
@@ -49,7 +62,18 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    text-align: center;   
+}
+
+.plane i{
+    padding: 0;
+    color: #fff;  
+}
+
+.plane i,h2{
+  text-align: center;
+  padding: 1rem; 
+  color: #fff;    
 }
 
 .sea{
@@ -60,7 +84,17 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    text-align: center;    
+}
+
+.sea i,h2{
+  text-align: center;
+  padding: 1rem;    
+}
+
+.sea i{
+    padding: 0; 
+    color: #fff;
 }
 
 .globe{
@@ -71,23 +105,25 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
-
-a:link,
-a:hover,
-a:active{
- text-decoration: none;
- color: #fff;     
+.globe i{
+    padding: 0;
+    color: #fff;  
 }
+
+.globe i,h2{
+  text-align: center;
+  padding: 1rem;    
+}
+
 
 a:link i{
- font-size: 15rem;   
+ font-size: 13rem;
+    
 }
 
-.sea a:link {
- color: #fff;   
-}
 
 .hide-text {
 	text-indent: 100%;
@@ -96,7 +132,43 @@ a:link i{
 	display: block;
 }
 
-h1,h2{
- max-width: 1000px;
- padding-left: 30%;
+
+@media only screen and (min-width: 40em){
+   .intro,
+   .plane,
+   .sea,
+   .globe{
+       font-size: 2rem;
+   }   
+    
+    .intro h1{
+    max-width: 80%;
+    padding-left: 20%; 
+    }
+    
+      
+    .plane h2{
+    max-width: 80%;
+    padding-left: 20%; 
+    }
+    
+      
+    .globe h2{
+    max-width: 80%;
+    padding-left: 20%; 
+    }
+    
+      
+    .sea h2{
+    max-width: 80%;
+    padding-left: 20%; 
+    }
 }
+
+.rotate{
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
