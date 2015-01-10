@@ -42,7 +42,7 @@ body{
     background-size: cover;
 }
 
-.intro i,h1{
+.intro h1{
   text-align: center;
   padding: 1rem; 
   color: #fff;    
@@ -70,7 +70,7 @@ body{
     color: #fff;  
 }
 
-.plane i,h2{
+.plane h2{
   text-align: center;
   padding: 1rem; 
   color: #fff;    
@@ -79,29 +79,28 @@ body{
 .sea{
     height: 100vh;
     width: 100%;
-    background-color: #800202;
+    background-color: #269f67;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;    
 }
 
-.sea i,h2{
+.sea h2{
   text-align: center;
   padding: 1rem; 
-        color: #580202;
+  color: #fff;
 }
 
 .sea i{
     padding: 0; 
-    color: #580505;
+    color:  #fff;
 }
 
 .globe{
     height: 100vh;
     width: 100%;
-    background-color: #0b93c6;
-    color: #fff;
+    background-color: #259bb1;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,9 +112,10 @@ body{
     color: #fff;  
 }
 
-.globe i,h2{
+.globe h2{
   text-align: center;
-  padding: 1rem;    
+  padding: 1rem;  
+  color: #fff;
 }
 
 
@@ -124,8 +124,7 @@ a:link i{
 }
 
 
-.icon-compas:hover {
- color: #8d0a28;
+a:hover {
  font-size: 12rem;    
  -webkit-transition: all 350ms ease-in-out;
  -moz-transition: all 350ms ease-in-out;
@@ -133,17 +132,6 @@ a:link i{
  -o-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;    
 }
-
-.icon-buoy:hover {
- font-size: 12rem;    
- -webkit-transition: all 350ms ease-in-out;
- -moz-transition: all 350ms ease-in-out;
- -ms-transition: all 350ms ease-in-out;
- -o-transition: all 350ms ease-in-out;
-  transition: all 350ms ease-in-out;       
-}
-
-
 
 
 .hide-text {
