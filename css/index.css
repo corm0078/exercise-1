@@ -79,8 +79,7 @@ body{
 .sea{
     height: 100vh;
     width: 100%;
-    background-color: #8d0a28;
-    color: #fff;
+    background-color: #800202;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,12 +88,13 @@ body{
 
 .sea i,h2{
   text-align: center;
-  padding: 1rem;    
+  padding: 1rem; 
+        color: #580202;
 }
 
 .sea i{
     padding: 0; 
-    color: #fff;
+    color: #580505;
 }
 
 .globe{
@@ -120,20 +120,30 @@ body{
 
 
 a:link i{
- font-size: 13rem;
-    
+ font-size: 11rem;
 }
 
 
-a:hover i{
- color: red;
--webkit-transition: all 950ms ease-in-out;
-	-moz-transition: all 950ms ease-in-out;
-	-ms-transition: all 950ms ease-in-out;
-	-o-transition: all 950ms ease-in-out;
-	transition: all 950ms ease-in-out;    
-    
+.icon-compas:hover {
+ color: #8d0a28;
+ font-size: 12rem;    
+ -webkit-transition: all 350ms ease-in-out;
+ -moz-transition: all 350ms ease-in-out;
+ -ms-transition: all 350ms ease-in-out;
+ -o-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;    
 }
+
+.icon-buoy:hover {
+ font-size: 12rem;    
+ -webkit-transition: all 350ms ease-in-out;
+ -moz-transition: all 350ms ease-in-out;
+ -ms-transition: all 350ms ease-in-out;
+ -o-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;       
+}
+
+
 
 
 .hide-text {
