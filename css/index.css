@@ -124,7 +124,7 @@ a:link i{
 }
 
 
-a:hover {
+a:hover i{
  font-size: 12rem;    
  -webkit-transition: all 350ms ease-in-out;
  -moz-transition: all 350ms ease-in-out;
@@ -132,7 +132,6 @@ a:hover {
  -o-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;    
 }
-
 
 .hide-text {
 	text-indent: 100%;
