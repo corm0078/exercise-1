@@ -125,6 +125,17 @@ a:link i{
 }
 
 
+a:hover i{
+ color: red;
+-webkit-transition: all 950ms ease-in-out;
+	-moz-transition: all 950ms ease-in-out;
+	-ms-transition: all 950ms ease-in-out;
+	-o-transition: all 950ms ease-in-out;
+	transition: all 950ms ease-in-out;    
+    
+}
+
+
 .hide-text {
 	text-indent: 100%;
 	white-space: nowrap;
