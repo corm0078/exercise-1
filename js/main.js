@@ -1,24 +1,25 @@
-var $win = $(window);
-var $sun = $('.sun');
-var $sunSection = $('.sun-section');
-var $dipperSection = $('.dipper-section');
-var $dipper = $('.dipper');
-var $spaceShipSec = $('.spaceship-1-section');
-var $spaceShip = $('.spaceship-1');
-var $spaceShipSec2 = $('.spaceship-2-section');
-var $spaceShip2 = $('.spaceship-2');
+ // Set up Scroll Handler
+        $(document).scroll(function(){
 
-$win.on('scroll', function () {
-    var scrollPos =$win.scrollTop();
-    
-    $sun.css('transform', 'rotate(' + scrollPos / 2 + 'deg)');
-    $sunSection.css('background-position', 'center ' + scrollPos / 3 + 'px')
+    var scrollTop = $(window).scrollTop();
+            var offset = $this.offset().top;
+            var height = $this.outerHeight();
+
+    // Check if above or below viewport
+if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
+return;
+}
+
+var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
+
+                // Apply the Y Background Position to Set the Parallax Effect
+    $this.css('background-position', 'center ' + yBgPosition + 'px');
+                
+        });
+        });
+    }
+}(jQuery));
+
+$('.parallax-section-1').parallax({
+speed : 0.15
 });
-
-$dipperSection.waypoint(function () {
-    $dipper.addClass('js-dipper-fade');
-}, { offset: '50%' });
-
-$spaceShipSec2.waypoint(function () {
-    $spaceShip2.addClass('js-spaceship-2-fade');
-}, { offset: '70%' });

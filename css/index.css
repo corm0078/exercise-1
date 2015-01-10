@@ -172,3 +172,10 @@ a:link i{
 }
 
 
+.parallax-section-1 {
+    height: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
